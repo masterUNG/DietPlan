@@ -47,6 +47,7 @@ import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+//    Explicit
     private DrawerLayout drawer;
     private NavigationView navigationView;
     public static Toolbar toolbar;
@@ -69,7 +70,8 @@ public class MainActivity extends AppCompatActivity
         Method.forceRTLIfSupported(getWindow(), MainActivity.this);
 
         toolbar = (Toolbar) findViewById(R.id.toolbar_main);
-        toolbar.setTitle(getResources().getString(R.string.app_name));
+        toolbar.setTitle(getResources().getString(R.string.main_title));
+        toolbar.setSubtitle(getResources().getString(R.string.main_title));
         textView_appDevlopBy = (TextView) findViewById(R.id.textView_app_developed_by);
 
         setSupportActionBar(toolbar);

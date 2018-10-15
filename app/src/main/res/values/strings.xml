@@ -1,4 +1,8 @@
 <resources>
+
+    <string name="main_title">Master Diet Plan</string>
+
+
     <string name="app_name">Diet Plan</string>
     <string name="app_sub_name">Diet Plan Tageline</string>
 
